@@ -1,13 +1,12 @@
-from re import T
 import time
 import math
 import threading
 import tkinter as tk
 from tkinter import ttk, PhotoImage
 
-POMODORO_MINUTES = 30
+POMODORO_MINUTES = 25
 SHORT_REST_MINUTES = 5
-LONG_REST_MINUTES = 10
+LONG_REST_MINUTES = 15
 
 SMALL_FONT = ("Ubuntu", 12)
 TOMATO_TEXT = ''
